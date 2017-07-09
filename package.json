@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sshrid/sshrid.github.io/issues"
   },
-  "homepage": "https://github.com/sshrid/sshrid.github.io#readme"
+  "homepage": "https://github.com/sshrid/sshrid.github.io#readme",
+  "dependencies": {
+    "mini.css": "^2.3.2"
+  }
 }
