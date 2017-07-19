@@ -1,6 +1,6 @@
 {
   "name": "sshrid.github.io",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,7 @@
     "url": "https://github.com/sshrid/sshrid.github.io/issues"
   },
   "homepage": "https://sshrid.github.io/",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "http-server": "^0.10.0",
     "purify-css": "^1.2.5",
