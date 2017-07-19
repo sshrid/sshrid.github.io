@@ -13,19 +13,31 @@
   <link rel="stylesheet" href="assets/style/main.css">
   <style media="screen">
     #top-heading span {
-      font-size: 1.5em;
-      font-family: 'Noto Sans', sans-serif;
+      font-size: 3.5em;
+      font-weight: lighter !important;
+    }
+
+    #description {
+      font-size: 1.3em;
+    }
+
+    .well {
+      background-color: rgba(31, 31, 31, 0.7);
     }
 
     .landing-zone {
-      height: calc(98.5vh - 48px);
-      background: url("assets/img/siri.png") no-repeat center center fixed;
+      height: calc(100vh - 48px);
+      background: url("assets/img/siri.jpg") no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
       color: white;
       text-align: center;
+    }
+
+    .heading-section {
+      padding-top: 25vh;
     }
 
     header {
@@ -45,8 +57,8 @@
 
 <body>
   <div class="landing-zone" id="top">
-    <div>
-      <h1 id="top-heading"><span>Stephanie Shrider</span></h1>
+    <div class="heading-section well">
+      <p id="top-heading"><span>Stephanie Shrider</span></p>
       <p id="description">Management Information Systems | Marketing</p>
     </div>
   </div>
