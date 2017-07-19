@@ -593,6 +593,7 @@ $include-center-block-name:    false;                 // Should center block be 
 @import 'mini/core';
 @import 'mini/grid';
 @import 'mini/input_control';
+@import 'mini/video';
 /*
   Custom elements for forms and input elements.
 */
@@ -611,7 +612,6 @@ $include-center-block-name:    false;                 // Should center block be 
 @import 'mini/navigation';
 @import 'mini/table';
 @import 'mini/card';
-@import 'mini/display-card';
 /*
   Custom elements for cards and containers.
 */
