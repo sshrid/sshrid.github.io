@@ -10,29 +10,46 @@
   <meta name="robots" content="home, follow" />
   <meta name="googlebot" content="home, follow" />
   <meta name="google-site-verification" content="" />
+  <link rel="stylesheet" href="assets/style/main.css">
   <style media="screen">
     #top-heading span {
       font-size: 1.5em;
       font-family: 'Noto Sans', sans-serif;
     }
+
+    .logo-body {
+      height: calc(98.5vh - 48px);
+    }
+
+    header {
+      height: 48px;
+    }
+
+    #intro {
+      padding: 15vh 1vw;
+    }
+
+    .card {
+      max-width: 50vw;
+    }
   </style>
 </head>
 
 <body>
-
-  <div class="logo-body">
-    <h1 id="top-heading"><span></span></h1>
+  <div class="logo-body" id="top">
+    <h1 id="top-heading"><span>Stephanie Shrider</span></h1>
     <p id="description">Management Information Systems | Marketing</p>
   </div>
 
   <header class="sticky">
+    <a href="#top" class="button">Top</a>
     <a href="#intro" class="button">Introduction</a>
     <a href="#" class="button">Portfolio</a>
   </header>
   <main>
     <div class="container responsive-padding">
       <div id="intro" class="row">
-        <div class="col-sm-12 col-lg-8 col-lg-offset-1">
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-1">
           <div class="row">
             <div class="col-sm-1">
               <!-- img here? -->
@@ -55,25 +72,25 @@
         </div>
       </div>
       <div class="row" style="padding-top: 60px; padding-bottom: 20px;">
-        <div class="col-sm-12 col-lg-10 col-lg-offset-1 row">
-          <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg col-lg-offset-0 box-centered row card-row">
-            <div class="card fluid" dir="caseit">
-              <div class="section">
-                <h2>CaseIT <small>preliminary</small></h2><br>
-                <!-- video -->
-                <p></p>
+          <div class="col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+            <div class="row">
+              <div class="display-card col-md-6 col-lg-6" dir="caseit">
+                <div class="section">
+                  <h2>CaseIT <small>preliminary</small></h2><br>
+                  <!-- video -->
+                  <p></p>
+                </div>
               </div>
-            </div>
-            <div class="card fluid" id="forth-smart">
-              <div class="section">
-                <h2>Forth Smart <small>case b preliminary</small></h2><br>
-                <!-- video -->
-                <p></p>
-                <!-- link to page w/ final -->
+              <div class="display-card col-md-6">
+                <div class="section">
+                  <h2>Forth Smart <small>case b preliminary</small></h2><br>
+                  <!-- video -->
+                  <p></p>
+                  <!-- link to page w/ final -->
+                </div>
               </div>
             </div>
           </div>
-        </div>
         <div class="col-sm-12 col-lg-10 col-lg-offset-1 row">
           <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg col-lg-offset-0 box-centered row card-row">
             <div class="card fluid" id="travelers">
@@ -138,10 +155,10 @@
         <div class="col-sm-12 col-lg-8 col-lg-offset-1">
           <small>
             This page created and maintained by Stephanie Shrider and Jade Thornton.
-          </small>
+          </small><br>
           <small>
             It is licensed under the <a href="https://github.com/sshrid/sshrid.github.io/blob/master/LICENSE">ISC License</a>.
-          </small>
+          </small><br>
           <small>
             Powered with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://pages.github.com">GitHub</a> and <a href="http://minicss.org">mini.css</a>. View the source code on <a href="https://github.com/sshrid/sshrid.github.io">GitHub</a>
           </small>

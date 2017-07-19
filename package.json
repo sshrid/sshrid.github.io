@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sshrid/sshrid.github.io#readme",
   "dependencies": {
+    "http-server": "^0.10.0",
     "mini.css": "^2.3.2"
   }
 }
