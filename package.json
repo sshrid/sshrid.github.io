@@ -17,10 +17,10 @@
   },
   "homepage": "https://sshrid.github.io/",
   "dependencies": {
-    "mini.css": "^2.3.2"
   },
   "devDependencies": {
     "http-server": "^0.10.0",
-    "purify-css": "^1.2.5"
+    "purify-css": "^1.2.5",
+    "mini.css": "^2.3.2"
   }
 }
