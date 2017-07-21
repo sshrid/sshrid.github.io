@@ -1469,7 +1469,6 @@ table.striped tr:nth-of-type(2n) > td {
     -webkit-order: 1;
     order: 1;
     display: inline-block;
-    height: 26px;
     cursor: pointer;
     transition: background 0.3s;
     background: #D8DEE9;

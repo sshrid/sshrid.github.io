@@ -38,7 +38,6 @@ $fore-color:              black !default;           // [External variable - core
             order: 1;
     // Actual styling
     display: inline-block;
-    height: $tab-label-height;
     cursor: pointer;
     transition: background 0.3s;
     @if $tab-label-back-color != $back-color {
